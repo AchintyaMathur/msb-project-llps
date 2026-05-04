@@ -1,0 +1,18 @@
+stage,parameter,fitted,true,notes
+joint_H1,chi0,-12.481831393935096,-12.0,
+joint_H1,A,-29.866728081162456,-32.0,
+joint_H1,B,-13.455347637098225,-18.0,
+joint_H1,K1,-4.695168227534659,-5.0,
+joint_H1,delta,-1.7744823938498275,-1.0,"CI=[-1.9011, -1.6985]"
+joint_H1,accuracy,0.9674444444444444,,
+joint_H0,chi0,-9.906811111429725,-12.0,
+joint_H0,A,-27.092181065918655,-32.0,
+joint_H0,B,-16.06101387176296,-18.0,
+joint_H0,K1,-5.325556477912024,-5.0,
+joint_H0,delta,0.0,-1.0,delta fixed=0
+joint_H0,accuracy,0.9667777777777777,,
+hypothesis_test,LRT,151.16010209984566,,chi2(1) statistic
+hypothesis_test,pvalue,9.66930634031502e-35,,
+hypothesis_test,dAIC,149.16010209984597,,H0-H1
+hypothesis_test,dBIC,142.05512224352788,,H0-H1
+hypothesis_test,reject_H0,1.0,,alpha=0.05

@@ -1,0 +1,15 @@
+stage,parameter,fitted,true,notes
+stage1,chi0,-11.875869766833263,-12.0,
+stage1,A,-31.620608670595693,-32.0,
+stage1,B,-17.778966742935932,-18.0,
+stage1,accuracy,0.9691666666666666,,
+stage2_H1,K1,-5.004347801311626,-5.0,
+stage2_H1,delta,-0.99174819913697,-1,"CI=[-1.0000, -0.9492]"
+stage2_H1,accuracy,0.9675555555555555,,
+stage2_H0,K1,-5.291601274560218,-5.0,delta fixed=0
+stage2_H0,accuracy,0.9627777777777777,,
+hypothesis_test,LRT,1252.1956973415924,,chi2(1) statistic
+hypothesis_test,pvalue,2.7664129697375415e-274,,
+hypothesis_test,dAIC,1250.1956973415927,,H0-H1
+hypothesis_test,dBIC,1243.0907174852746,,H0-H1
+hypothesis_test,reject_H0,1.0,,alpha=0.05
